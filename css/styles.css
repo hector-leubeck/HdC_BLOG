@@ -53,6 +53,7 @@ a:hover {
 
 .post img {
   width: 100%;
+  min-width: 450px;
 }
 
 .title,
@@ -142,8 +143,14 @@ a:hover {
   margin-bottom: 1rem;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 890px) {
   .container {
     flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 510px) {
+  .post img {
+    min-width: 290px;
   }
 }
